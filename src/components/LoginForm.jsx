@@ -15,7 +15,7 @@ const LoginForm = () => {
   // setup state to handle the reuslt returned from form submission
   const [result, setResult] = useState({ color: "", outcome: "" });
   // set proper format for valid email
-  const mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  const mailFormat = "/^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/";
 
   // handle the form submission
   const handleSubmit = (e) => {
